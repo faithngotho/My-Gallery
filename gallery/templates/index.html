@@ -1,17 +1,8 @@
-{% extends 'base.html'%} 
+{% extends 'base.html' %}
 
 {% block content %}
+{{block.super}}
 <div class="container">
-  <div class="row">
-    {% if images%}
-    <div class="jumbotron">
-      <h2>Found {{ images|length }} of searched term {{message}}</h2>
-    </div>
-    {% else %}
-      <h2> Found 0 images for the searched term {{message}}</h2>
-    {% endif %}
-  </div>
-
   <div class="row">
     {% for image in images %}
     <div class="col-md-4">
@@ -33,6 +24,8 @@
               {{image.description}}
             </div>
             <div class="modal-footer">
+             <p> location: {{image.location}}</p>
+             <p> category: {{image.category}}</p>
               <button class="btn btn-outline-info" onclick="copyToClipboard('{{image.id}}-url')">Copy Image Url</button>
             </div>
           </div>
