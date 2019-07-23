@@ -15,14 +15,13 @@
   <div class="row">
     {% for image in images %}
     <div class="col-md-4">
-        <img style=" margin-top: 20px; margin-bottom: 20px; width:400px; height:400px;" src="{{image.image.url}}" class="img img-responsive card-img-top img-fluid" alt="Image" data-toggle="modal" data-target="#{{image.id}}">
+        <img style=" margin-top: 30px; margin-bottom: 30px; width:400px; height:400px;" src="{{image.image.url}}" class="img img-responsive card-img-top img-fluid" alt="Image" data-toggle="modal" data-target="#{{image.id}}">
 
       <!--Modal -->
-        <div style="max-width:70%; max-height:50%; padding-top:100px;" class="modal-dialog modal-dialog-centered" role="document">
+        <div style="max-width:80%; max-height:60%; padding-top:100px;" class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <h3 class="modal-title" id="imageTitle" style="text-align:center"><strong>{{image.name}}</strong></h3>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
