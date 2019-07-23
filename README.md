@@ -28,10 +28,10 @@ Clone the application using git clone(this copies the app onto your device). In 
 6. $ source virtual/bin/activate
 7. (virtual)$ pip install -r requirements.txt
 
-Technologies
-Python 3.6
-Django
-Bootstrap
+## Technologies
+1. Python 3.6
+2. Django
+3. Bootstrap
 Known bugs
 There are no known bugs as of now.
 
