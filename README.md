@@ -32,8 +32,9 @@ Clone the application using git clone(this copies the app onto your device). In 
 1. Python 3.6
 2. Django
 3. Bootstrap
-Known bugs
+
+## Known bugs
 There are no known bugs as of now.
 
-Support
+## Support
 For any questions, troubleshooting or contributions, find me on: Email: faithwangari248@gmail.com
