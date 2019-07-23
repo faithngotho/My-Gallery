@@ -36,4 +36,4 @@ Known bugs
 There are no known bugs as of now.
 
 Support
-For any questions, troubleshooting or contributions, find me on: Email: florenceshiru765@gmail.com
+For any questions, troubleshooting or contributions, find me on: Email: faithwangari248@gmail.com
