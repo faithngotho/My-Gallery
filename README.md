@@ -8,7 +8,7 @@ This is an application where the user can view different images from the gallery
 ## Link to live site
 
 
-BDD
+## BDD
 |Behaviur	          |Input                    |	Output                                       |
 |-------------------|-------------------------|----------------------------------------------|
 |View image details	|Click on the image	      |Image is displayed in a modal with its details|
@@ -27,8 +27,7 @@ Clone the application using git clone(this copies the app onto your device). In 
 3. Installation
 4. Create and activate your virtual environment:
 5. $ python3.6 -m venv
-6. $ source virtual/bin/activate
-7. (virtual)$ pip install -r requirements.txt
+6. (virtual)$ pip install -r requirements.txt
 
 ## Technologies
 1. Python 3.6
