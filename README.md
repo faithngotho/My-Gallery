@@ -5,7 +5,7 @@ Description
 This is an application where the user can view different images from the gallery, click on the image to view its details and a laregr version of the image and copy the link to the image to share with their friends.
 
 Link to live site
-https://galleryflow.herokuapp.com/
+
 
 BDD
 Behaviour	Input	Output
