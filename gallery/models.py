@@ -64,8 +64,8 @@ class Image(models.Model):
     image class for all images added to the application
     '''
     image = models.ImageField(upload_to='images/')
-    name = models.CharField(max_length=40)
-    description = models.CharField(max_length=200, blank = True)
+    name = models.CharField(max_length=50)
+    description = models.CharField(max_length=300, blank = True)
     category = models.ForeignKey('Category')
     location = models.ForeignKey('Location')
 
