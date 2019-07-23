@@ -26,7 +26,7 @@ def search_results(request):
         searched_categories = Image.search_results(search_term)
         message = f"{search_term}"
 
-        return render(request, 'search.html',{"message":message,"categories": searched_categories})
+        return render(request, 'search.html',{"message":message,"category": searched_categories})
 
     else:
         message = "You haven't searched for any term"
