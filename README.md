@@ -9,10 +9,10 @@ This is an application where the user can view different images from the gallery
 
 
 BDD
-Behaviour	Input	Output
-
-|View image details	|Click on the image	Image is displayed in a modal with its details
-Copy the image link	| Click on the copy button	Link is copied in the clipboard
+|Behaviur	          |Input                    |	Output                                       |
+|-------------------|-------------------------|----------------------------------------------|
+|View image details	|Click on the image	      |Image is displayed in a modal with its details|
+|Copy the image link| Click on the copy button|Link is copied in the clipboard               |
 
 ## Setup
 1. Requirements
