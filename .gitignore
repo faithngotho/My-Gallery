@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 .env
 *.pyc
 virtual/
 __pycache__/
+=======
+virtual/
+*.pyc
+.env
+__pycache__
+.vscode/
+>>>>>>> heroku
