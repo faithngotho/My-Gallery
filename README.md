@@ -12,7 +12,7 @@ This is an application where the user can view different images from the gallery
 |Behaviur	          |Input                    |	Output                                       |
 |-------------------|-------------------------|----------------------------------------------|
 |View image details	|Click on the image	      |Image is displayed in a modal with its details|
-|Copy the image link| Click on the copy button|Link is copied in the clipboard               |
+|View location      | Click on the location   |Location is displayed                         |
 
 ## Setup
 1. Requirements
