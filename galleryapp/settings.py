@@ -22,7 +22,6 @@ MODE = config("MODE", default="dev")
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-Debug = true
 # if config('MODE') == "dev":
 #        DATABASES = {
 #        'default': {
@@ -37,7 +36,7 @@ Debug = true
 #    }
 
 # else:
-    DATABASES = {
+DATABASES = {
         'default': dj_database_url.config(
             default=config('DATABASE_URL')
         )
